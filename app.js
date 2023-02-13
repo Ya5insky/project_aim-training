@@ -64,10 +64,10 @@ function scoreName() {
     timeEl.parentNode.classList.add('hide')
     if(score < 15) {
         board.innerHTML = `<h1>Твой счет: <span class"primary">${score}</span> </h1> 
-                           <h2>Ты слабый бич, иди тренируйся</h2>`
+                           <h2>Ты слабый бич, иди тренируйся (Артём, кс это не твоё)</h2>`
     } else {
         board.innerHTML = `<h1>Твой счет: <span class"primary">${score}</span> </h1>
-                           <h2>Все равно слабый бич, авп не твое</h2>`
+                           <h2>Куда тебе авик брать, крип</h2>`
     }
 }
 
